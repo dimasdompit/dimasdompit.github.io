@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Start global */
 
@@ -53,6 +54,7 @@ header {
     height: 100vh;
     position: fixed;
     top: -100vh;
+    z-index: 50;
     background-color: #16162d;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
@@ -73,8 +75,8 @@ li {
 }
 
 .nav-link {
-    font-family: 'Pacifico', cursive;
-    font-size: 2.5rem;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3rem;
     padding: 1rem;
 }
 
@@ -136,6 +138,31 @@ li {
 
 .open .bar.end {
     transform: rotate(-450deg) translateX(-.8rem);
+}
+
+.landing-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.landing-text h1 {
+    font-size: 12rem;
+    font-family: 'Kaushan Script', cursive;
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+}
+
+.landing-text h6 {
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 /* End header */
