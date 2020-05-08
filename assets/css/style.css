@@ -669,3 +669,26 @@ input[type="submit"]:hover {
         right: 2rem;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    .timeline ul {
+        margin: 0 0 0 auto;
+    }
+
+    .timeline h1 {
+        font-size: 1.7rem;
+    }
+
+    .timeline p {
+        font-size: 1.3rem;
+    }
+
+    .timeline .date::before {
+        left: -20rem;
+    }
+
+    .timeline .date::after {
+        left: -5.9rem;
+    }
+}
