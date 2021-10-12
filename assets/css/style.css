@@ -22,6 +22,11 @@ body {
   background-size: cover;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 section {
   padding: 6rem 0;
 }
@@ -682,7 +687,7 @@ input[type="submit"]:hover {
   }
 
   .timeline ul {
-    margin: 0 0 0 150px;
+    margin: 0 0 0 140px;
   }
 
   .timeline h1 {
