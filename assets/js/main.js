@@ -26,4 +26,6 @@ $(document).ready(function () {
         duration: 1800,
         once: true
     });
+
+    $('#copyright-year').html(`Copyright &copy; ${new Date().getFullYear()} Dimas Mokodompit. All right reserved.`);
 });
